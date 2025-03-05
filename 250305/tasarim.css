@@ -1,0 +1,52 @@
+:root{
+    --renk-koyu-mavi: #075192;
+    --renk-acik-mavi:#0c63a9;
+}
+header{
+    background-color:var(--renk-koyu-mavi);
+}
+
+/*Genel css*/
+.sol-ust-yuvarla{
+    border-top-left-radius: 1rem;
+}
+
+#main-menu{
+    background-color: var(--renk-acik-mavi)
+}
+
+#main-menu .nav-link{
+    color: #fff;
+}
+
+#site-baslik h2{
+    color: var(--renk-koyu-mavi);
+}
+
+#site-baslik h3{
+color: var(--renk-acik-mavi);
+}
+
+/*Orta Bölüm*/
+#baglanti-liste .list-group-item{
+    background-color: var(--renk-acik-mavi);
+}
+#baglanti-liste .nav-link{
+    color: #fff;
+}
+
+.sag-alt-yuvarla{
+    border-top-left-radius: 1rem !important;
+}
+.carousel-indicators [data-bs-target]{ 
+    width: 75px;
+    height: auto;
+}
+
+#slider.carousel-indicators-caption h5{
+        background-color: #000005;
+        color: #fff;
+        padding: 1rem 0;
+}
+
+
